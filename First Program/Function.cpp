@@ -12,7 +12,6 @@ int main(){
     std::cout << "A = " << A <<std::endl;
     std::cout << "B = " << B <<std::endl;
 
-
     int calc = A + B;
     std::cout << "Calculation is " << calc <<std::endl;
     
@@ -20,6 +19,7 @@ int main(){
     std::cout << "SumNumber = " << calc2 << std::endl;
 
     std::cout << "Other Sum Number = " << SumNumber(39,213) << std::endl;
-    
+
     return 0;
+
 }
