@@ -19,5 +19,7 @@ int main(){
     int calc2 = SumNumber(30,3);
     std::cout << "SumNumber = " << calc2 << std::endl;
 
+    std::cout << "Other Sum Number = " << SumNumber(39,213) << std::endl;
+    
     return 0;
 }
