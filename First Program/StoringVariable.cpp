@@ -49,7 +49,8 @@ int main()
     long LongVar{23}; // 4byte or 8byte
     long int LongInt{323};
     signed long SingedLong{23232};
-    signed long int SignedLongInt{12312312};
+    signed long int SignedLongInt{1423123212};
+    unsigned long int UnsignedLongInt{1423123212};
 
     long long LongLong{2332}; // 8byte
     long long int LongLongInt{123123123};
@@ -70,6 +71,7 @@ int main()
     std::cout << "LongInt               = " << LongInt << std::endl;
     std::cout << "SingedLong            = " << SingedLong << std::endl;
     std::cout << "SignedLongInt         = " << SignedLongInt << std::endl;
+    std::cout << "UnsignedLongInt       = " << UnsignedLongInt << std::endl;
     std::cout << "LongLong              = " << LongLong << std::endl;
     std::cout << "LongLongInt           = " << LongLongInt << std::endl;
     std::cout << "SignedLongLong        = " << SignedLongLong << std::endl;
@@ -89,11 +91,10 @@ int main()
     std::cout << "Size of LongInt               = " << sizeof(LongInt) << std::endl;
     std::cout << "Size of SingedLong            = " << sizeof(SingedLong) << std::endl;
     std::cout << "Size of SignedLongInt         = " << sizeof(SignedLongInt) << std::endl;
+    std::cout << "Size of UnsignedLongInt       = " << sizeof(UnsignedLongInt) << std::endl;
     std::cout << "Size of LongLong              = " << sizeof(LongLong) << std::endl;
     std::cout << "Size of LongLongInt           = " << sizeof(LongLongInt) << std::endl;
     std::cout << "Size of SignedLongLong        = " << sizeof(SignedLongLong) << std::endl;
     std::cout << "Size of SignedLongLongInt     = " << sizeof(SignedLongLongInt) << std::endl;
     std::cout << "Size of UnsignedLongLongInt   = " << sizeof(UnsignedLongLongInt) << std::endl;
-
-
 }
