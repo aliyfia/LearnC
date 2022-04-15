@@ -10,6 +10,11 @@ int main(){
     std::cout << "size of number 1 (Float)          = " << sizeof(number1)  << "    // "<< number1 << std::endl;
     std::cout << "size of number 2 (double)         = " << sizeof(number2) << "     // " << number2 << std::endl;
     std::cout << "size of number 3 (long double)    = "<< sizeof(number3) << "      // "<< number3 << std::endl;
+    std::cout << "______________________________________"<<std::endl;
+    
+    
+    long double number4 {1.23323e2};
+    std::cout <<"Number 4 is = " << number4 <<std::endl; 
 
     std::cout <<  std::setprecision(20);
     std::cout << "size of number 1 (Float)          = " << sizeof(number1)  << "    // "<< number1 << std::endl; // only reach 7 digit 
@@ -17,9 +22,7 @@ int main(){
     std::cout << "size of number 3 (long double)    = "<< sizeof(number3) << "      // "<< number3 << std::endl; // can be more than 15+++
 
 
-    std::cout << "______________________________________"<<std::endl;
-    double number4 {1.2332323e2};
-    std::cout <<"Number 4 is = " << number4 <<std::endl; 
+
 
 
 }
