@@ -15,4 +15,5 @@ int main() {
     std::cout<< "Result 3 = " << Result3 <<std::endl;
     std::cout<< "Result 4 = " << Result4 <<std::endl;
     std::cout<< "Result 5 = " << Result5 <<std::endl;
+    
 }
