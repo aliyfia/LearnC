@@ -13,9 +13,19 @@ int main()
     int LenghtOfArray = sizeof(Nama) / sizeof(string); //get size of array
     cout << LenghtOfArray <<"\n";
 
-    cout << "Input Array  0 : \n";
+    for (int i = 0; i < LenghtOfArray; i++)
+    {
+        cout<< "Array " << i << " " << Nama[i] << endl;
+
+    }
+    
+
+    cout << "Input Array : \n";
     cin >> Nama[0];
+    cout << "________________________________________________________\n";
     cout << Nama[0] << endl;
     cout << Nama[1] << endl;
     cout << Nama[2] << endl;
+
+
 }
