@@ -11,6 +11,8 @@ int main()
     cout << Nama[1] << endl;
     cout << Nama[2] << endl;
     int LenghtOfArray = sizeof(Nama) / sizeof(string); //get size of array
+    int LenghtOfArray2 = size(Nama);
+    cout << LenghtOfArray2 << endl;
     cout << LenghtOfArray <<"\n";
 
     for (int i = 0; i < LenghtOfArray; i++)
