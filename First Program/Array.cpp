@@ -10,7 +10,7 @@ int main()
     cout << Nama[0] << endl;
     cout << Nama[1] << endl;
     cout << Nama[2] << endl;
-    int LenghtOfArray = sizeof(Nama) / sizeof(string);
+    int LenghtOfArray = sizeof(Nama) / sizeof(string); //get size of array
     cout << LenghtOfArray <<"\n";
 
     cout << "Input Array  0 : \n";
