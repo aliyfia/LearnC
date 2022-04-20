@@ -27,7 +27,7 @@ int main()
 
     delete P_Number2;
     P_Number2 = nullptr;
-    P_Number2 = new int(123);
+    P_Number2 = new int(123); //new allocate
     *P_Number2 = 123;
     cout << endl;
     cout << "Dynamic allocate memory = " << endl;
