@@ -22,7 +22,7 @@ int main()
     }
     
 
-    cout << "Input Array : \n";
+    cout << "Input Array : \n"; 
     cin >> Nama[0];
     cout << "________________________________________________________\n";
     cout << Nama[0] << endl;
