@@ -45,9 +45,20 @@ int main()
     cout << "______________________________________________________\n";
     cout << "\n";
 
+    const char *Str {"Lets try find the T in certain sentences. There is so many sentences starting with t. This is the another one example"};
+    char TargetChar = 'T';
+    const char *Sentence = Str;
+    size_t Iteration = 0;
+
+    while ((Sentence = strchr(Sentence,TargetChar)) != nullptr) {
+        cout << "Found the T in " << TargetChar << " Starting with = " << Sentence << endl;
+        Sentence++;
+        Iteration++;
+    }
+    cout << "Iteration = " << Iteration << endl;
 
 
 
-    
+
     return 0;
 }
