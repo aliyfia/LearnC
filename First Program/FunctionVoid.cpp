@@ -72,4 +72,7 @@ int main()
     cout << "Please enter your second number here = " << endl;
     cin >> number_stage1_1;
     Stage1(number_stage1_0, number_stage1_1);
+    
+    
+    return 0;
 }
